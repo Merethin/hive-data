@@ -3,25 +3,28 @@
 {%- block body -%}
 {{- heading("Starlight & Horizon - Current Government") -}}
 [box][size=150][b]The Triune Circle[/b][/size]
-[hr]{%- for luminarch in parameters.people.luminarchs %}
+[hr]{%- for luminarch in parameters.people.luminarchs -%}
 [b][color=#E0C033]Luminarch[/color] [nation]{{ luminarch.nation }}[/nation] ({{ luminarch.discord }})[/b]
-{% endfor %}
+{%- endfor -%}
 [b][color=#E0C033]Aetherion[/color] [nation]{{ parameters.people.aetherion.nation }}[/nation] ({{ parameters.people.aetherion.discord }})[/b]
 
+
 [size=150][b]Aethereal Council[/b][/size]
-[hr]{%- for councilor in parameters.people.aethereal_council %}
+[hr]{%- for councilor in parameters.people.aethereal_council -%}
 [b][color=#2ebff3]Aethereal Councilor[/color] [nation]{{ councilor.nation }}[/nation] ({{ councilor.discord }})[/b]
-{% endfor %}
+{%- endfor -%}
+
 
 [size=150][b]Halls of Solaris[/b][/size]
 [hr][b][color=#ff8c00]Flamewarden[/color] [nation]{{ parameters.people.flamewarden.nation }}[/nation] ({{ parameters.people.flamewarden.discord }})[/b]
-{% for vice_flamewarden in parameters.people.vice_flamewardens %}
+{%- for vice_flamewarden in parameters.people.vice_flamewardens %}
 [b][color=#ffc062]Vice-Flamewarden[/color] [nation]{{ vice_flamewarden.nation }}[/nation] ({{ vice_flamewarden.discord }})[/b]
-{% endfor %}
+{%- endfor -%}
+
 
 [size=150][b]Cabinet[/b][/size]
-[hr]{%- for minister in parameters.people.ministers %}
+[hr]{%- for minister in parameters.people.ministers -%}
 [b][color=#2242f8]{{ minister.title }}[/color] [nation]{{ minister.nation }}[/nation] ({{ minister.discord }})[/b]
-{% endfor %}
+{%- endfor -%}
 [/box]
 {%- endblock -%}
