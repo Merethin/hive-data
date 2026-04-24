@@ -1,0 +1,10 @@
+{%- extends "layouts/combined" -%}
+{%- block body -%}
+[box][background-block=#062254][hr][size=200][color=#FFFFFF][font=consolas][center][b]World Assembly Affairs - Voting Recommendation[/b][/font][/color][/size][hr][/center][/background-block]
+
+[center][color=#107eb1][size=150][b][font=consolas]World Assembly Voting Recommendation and Analysis by [nation]{% block ifv_author %}{% endblock %}[/nation][/font][/b][/size][/color]
+[sub][i][url=https://discord.gg/EvDHxy8rYE][color=#00569C][b]Join Our Discord For More WA Discussion![/b][/color][/url][/i][/sub]
+[/center][hr][font=consolas][size=125]
+{%- block ifv_content -%}{%- endblock -%}
+[/size][/font][/box]
+{%- endblock -%}

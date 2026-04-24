@@ -1,0 +1,20 @@
+{
+    "luminarchs": [
+        { "nation": "oseao", "discord": "@osionicboom" },
+        { "nation": "irenae", "discord": "@irenaika" }
+    ],
+    "aetherion": { "nation": "alainian_federation", "discord": "@celialeaves" },
+    "flamewarden": { "nation": "untecna", "discord": "@untecna" },
+    "vice-flamewardens": [
+        { "nation": "dogeland", "discord": "@theholygonkdroid" },
+        { "nation": "maraing", "discord": "@miyamai_moon" }
+    ],
+    "ministers": [
+        { "title": "Minister of Foreign Affairs", "nation": "merethin", "discord": "@iris.dreamer" },
+        { "title": "Minister of World Assembly Affairs", "nation": "cessarea", "discord": "@brit0001" },
+        { "title": "Minister of Media", "nation": "octopodus", "discord": "@indyindyindy" },
+        { "title": "Minister of Culture", "nation": "dogeland", "discord": "@theholygonkdroid" },
+        { "title": "Minister of Gameside", "nation": "stevist_guam", "discord": "@greatkitteh" },
+        { "title": "Minister of Gameside", "nation": "andromisa", "discord": "@centennium" }
+    ]
+}

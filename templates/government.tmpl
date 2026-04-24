@@ -1,0 +1,23 @@
+{%- from "macros/general" import heading -%}
+{%- extends "layouts/combined" -%}
+{%- block body -%}
+{{- heading("Starlight & Horizon - Current Government") -}}
+[box]
+[size=150][b]The Triune Circle[/b][/size]
+[hr]{% for luminarch in parameters.people.luminarchs %}
+[b][color=yellow]Luminarch[/color] [nation]{{ luminarch.nation }}[/nation] ({{ luminarch.discord }})[/b]
+{% endfor %}
+[b][color=yellow]Aetherion[/color] [nation]{{ parameters.people.aetherion.nation }}[/nation] ({{ parameters.people.aetherion.discord }})[/b]
+
+[size=150][b]Halls of Solaris[/b][/size]
+[hr][b][color=orange]Flamewarden[/color] [nation]{{ parameters.people.flamewarden.nation }}[/nation] ({{ parameters.people.flamewarden.discord }})[/b]
+{% for vice-flamewarden in parameters.people.vice-flamewardens %}
+[b][color=orange]Vice-Flamewarden[/color] [nation]{{ vice-flamewarden.nation }}[/nation] ({{ vice-flamewarden.discord }})[/b]
+{% endfor %}
+
+[size=150][b]Cabinet[/b][/size]
+[hr]{% for minister in parameters.people.ministers %}
+[b][color=blue]{{ minister.title }}[/color] [nation]{{ minister.nation }}[/nation] ({{ minister.discord }})[/b]
+{% endfor %}
+[/box]
+{%- endblock -%}
