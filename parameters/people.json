@@ -4,6 +4,11 @@
         { "nation": "irenae", "discord": "@irenaika" }
     ],
     "aetherion": { "nation": "alainian_federation", "discord": "@celialeaves" },
+    "aethereal_council": [
+        { "nation": "merethin", "discord": "@iris.dreamer" },
+        { "nation": "stevist_guam", "discord": "@greatkitteh" },
+        { "nation": "kaidan", "discord": "@kaidan4" }
+    ],
     "flamewarden": { "nation": "untecna", "discord": "@untecna" },
     "vice_flamewardens": [
         { "nation": "dogeland", "discord": "@theholygonkdroid" },
