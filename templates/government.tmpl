@@ -2,7 +2,8 @@
 {%- extends "layouts/combined" -%}
 {%- block body -%}
 {{- heading("Starlight & Horizon - Current Government") -}}
-[box][size=150][b]The Triune Circle[/b][/size]
+[box]
+[size=150][b]The Triune Circle[/b][/size]
 [hr]{%- for luminarch in parameters.people.luminarchs -%}
 [b][color=#E0C033]Luminarch[/color] [nation]{{ luminarch.nation }}[/nation] ({{ luminarch.discord }})[/b]
 {% endfor %}[b][color=#E0C033]Aetherion[/color] [nation]{{ parameters.people.aetherion.nation }}[/nation] ({{ parameters.people.aetherion.discord }})[/b]
