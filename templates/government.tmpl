@@ -5,8 +5,7 @@
 [box][size=150][b]The Triune Circle[/b][/size]
 [hr]{%- for luminarch in parameters.people.luminarchs -%}
 [b][color=#E0C033]Luminarch[/color] [nation]{{ luminarch.nation }}[/nation] ({{ luminarch.discord }})[/b]
-{% endfor %}
-[b][color=#E0C033]Aetherion[/color] [nation]{{ parameters.people.aetherion.nation }}[/nation] ({{ parameters.people.aetherion.discord }})[/b]
+{% endfor %}[b][color=#E0C033]Aetherion[/color] [nation]{{ parameters.people.aetherion.nation }}[/nation] ({{ parameters.people.aetherion.discord }})[/b]
 
 
 [size=150][b]Aethereal Council[/b][/size]
@@ -17,7 +16,7 @@
 
 [size=150][b]Halls of Solaris[/b][/size]
 [hr][b][color=#ff8c00]Flamewarden[/color] [nation]{{ parameters.people.flamewarden.nation }}[/nation] ({{ parameters.people.flamewarden.discord }})[/b]
-{%- for vice_flamewarden in parameters.people.vice_flamewardens %}
+{%- for vice_flamewarden in parameters.people.vice_flamewardens -%}
 [b][color=#ffc062]Vice-Flamewarden[/color] [nation]{{ vice_flamewarden.nation }}[/nation] ({{ vice_flamewarden.discord }})[/b]
 {% endfor %}
 
