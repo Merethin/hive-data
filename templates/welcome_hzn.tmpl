@@ -1,5 +1,5 @@
 {%- from "macros/horizon" import heading -%}
-{%- from "macros/general" import section, endsection -%}
+{%- from "macros/general" import section, endsection, divider -%}
 {%- extends "layouts/horizon" -%}
 {%- block body -%}
 [box]
@@ -17,7 +17,7 @@ If you ever have any questions, feel free to reach out to any member of the Triu
 [*][nation]{{ luminarch.nation }}[/nation] ([b][url=page=compose_telegram?tgto={{ luminarch.nation }}][font=nationstates][/font] Telegram[/url][/b] - [b]Discord[/b]: {{ luminarch.discord }})
 {% endfor %}[*][nation]{{ parameters.people.aetherion.nation }}[/nation] ([b][url=page=compose_telegram?tgto={{ parameters.people.aetherion.nation }}][font=nationstates][/font] Telegram[/url][/b] - [b]Discord[/b]: {{ parameters.people.aetherion.discord }})[/list]
 {{- endsection() -}}
-[anchor=start][/anchor]
+[/box]{{- divider() -}}[box][anchor=start][/anchor]
 {{- section("Getting Started") -}}
 First things first:
 [list][*] [b]Block Recruitment Telegrams[/b]: [i]Your inbox is likely being spammed by recruitment telegrams asking you to move regions right now. Now that you've joined Horizon, you'll want to stop the spam.[/i]
@@ -31,7 +31,7 @@ Head over to [b][url=https://www.nationstates.net/page=tgsettings][font=nationst
 [/list]
 [/list]
 {{- endsection() -}}
-[anchor=todo][/anchor]
+[/box]{{- divider() -}}[box][anchor=todo][/anchor]
 {{- section("Things to Do") -}}
 We pride ourselves in having a wide variety of activities for our members to participate in. Click on the links for more information on how to join each of them!
 
@@ -49,7 +49,7 @@ We pride ourselves in having a wide variety of activities for our members to par
 [/list]
 [/list]
 {{- endsection() -}}
-[anchor=rp][/anchor]
+[/box]{{- divider() -}}[box][anchor=rp][/anchor]
 {{- section("Roleplay Opportunities") -}}
 We have three different roleplay settings for you to dive into and jump into stories with both new and established roleplayers:
 [list][*]🌌 [b]Celestara[/b], a sci-fi space roleplay set in an expansive galaxy of our own.
@@ -61,7 +61,7 @@ All of them only require World Assembly membership to join, you do not need to b
 You can read more about them and how to join in our roleplay portal dispatch:
 https://www.nationstates.net/page=dispatch/id=2769410
 {{- endsection() -}}
-[anchor=social][/anchor]
+[/box]{{- divider() -}}[box][anchor=social][/anchor]
 {{- section("Hang Out") -}}
 We have an active community that will be delighted to meet you and chat!
 
@@ -69,7 +69,7 @@ There are two main avenues through which we hang out:
 [list][*] The [b][url={{ parameters.urls.regions.horizon }}#rmb][font=nationstates][/font] Regional Message Board[/url][/b], NationStates's built-in chat platform, open to any member as well as friends from other regions.
 [*]The [b][url={{ parameters.urls.discord }}][font=nationstates][/font] regional Discord server[/url][/b], where most government activity as well as more casual and live chat happens. Our Discord server is one of the most active out of any region so we highly recommend you join - if you don't have a Discord account, making one is entirely free![/list]
 {{- endsection() -}}
-[anchor=cit][/anchor]
+[/box]{{- divider() -}}[box][anchor=cit][/anchor]
 {{- section("Citizenship") -}}
 Being a citizen (also known as Starborn) of Horizon lets you shape our region by getting involved in the regional government, elections and legislature!
 
@@ -80,7 +80,7 @@ Citizenship is not required to be a member of the region or participate in thing
 
 [size=130][b]✧ How to Join[/b][/size]
 [list][b][url={{ parameters.urls.discord }}]Join our regional Discord server[/url][/b] and fill out the form in [b][url=https://discord.com/channels/1299450621044330616/1494360172536004628/1494360172536004628]the Citizenship thread[/url][/b].[/list]
-[anchor=mil][/anchor]
+[/box]{{- divider() -}}[box][anchor=mil][/anchor]
 {{- section("Military") -}}
 The Galactic Armada, our defender military, works to protect innocent regions from invader forces, as well as invade fascist and undesirable regions ourselves.
 
@@ -94,7 +94,7 @@ Military gameplay is one of the most dynamic activities you can find on NationSt
 
 [size=130][b]✧ More Information[/b][/size]
 https://www.nationstates.net/page=dispatch/id=2580677
-[anchor=rec][/anchor]
+[/box]{{- divider() -}}[box][anchor=rec][/anchor]
 {{- section("Recruitment") -}}
 Recruitment is a vital activity to maintain the health of our community and bring in new faces.
 
@@ -108,7 +108,7 @@ As a recruiter, you'll use our incredibly intuitive bot, Vanille, to help you se
 
 [size=130][b]✧ More Information[/b][/size]
 https://www.nationstates.net/page=dispatch/id=2770771
-[anchor=cult][/anchor]
+[/box]{{- divider() -}}[box][anchor=cult][/anchor]
 {{- section("Ministry of Culture") -}}
 The Ministry of Culture is tasked with planning and host exciting events to bring the community together.
 
@@ -119,7 +119,7 @@ As a member of the Ministry of Culture, you will help plan events, watch parties
 
 [size=130][b]✧ How to Join[/b][/size]
 [list][b][url={{ parameters.urls.discord }}]Join our regional Discord server[/url][/b] and fill out the form in [b][url=https://discord.com/channels/1299450621044330616/1494358985573404792/1494358985573404792]the Ministry of Culture thread[/url][/b].[/list]
-[anchor=game][/anchor]
+[/box]{{- divider() -}}[box][anchor=game][/anchor]
 {{- section("Ministry of Gameside") -}}
 The Ministry of Gameside is tasked with welcoming new members, bolstering on-site activity and driving engagement.
 
@@ -130,7 +130,7 @@ As a member of the Ministry of Gameside, you will help welcome new members and i
 
 [size=130][b]✧ How to Join[/b][/size]
 [list][b][url={{ parameters.urls.discord }}]Join our regional Discord server[/url][/b] and fill out the form in [b][url=https://discord.com/channels/1299450621044330616/1494359304591904970/1494359304591904970]the Ministry of Gameside thread[/url][/b].[/list]
-[anchor=media][/anchor]
+[/box]{{- divider() -}}[box][anchor=media][/anchor]
 {{- section("Ministry of Media") -}}
 The Ministry of Media helps keep our members informed through regular publications of our regional newspaper, the Voice of the Stars.
 
@@ -141,7 +141,7 @@ As a member, you will help write articles and edit others' to make this publicat
 
 [size=130][b]✧ How to Join[/b][/size]
 [list][b][url={{ parameters.urls.discord }}]Join our regional Discord server[/url][/b] and fill out the form in [b][url=https://discord.com/channels/1299450621044330616/1494359141517361193/1494359141517361193]the Ministry of Media thread[/url][/b].[/list]
-[anchor=wa][/anchor]
+[/box]{{- divider() -}}[box][anchor=wa][/anchor]
 {{- section("Ministry of World Assembly Affairs") -}}
 The Ministry of WA Affairs writes voting recommendations for World Assembly resolutions and helps Starborn write their own proposals so that they have the best chance at success.
 
@@ -152,7 +152,7 @@ As a member, you'll help out in writing the aforementioned voting recommendation
 
 [size=130][b]✧ How to Join[/b][/size]
 [list][b][url={{ parameters.urls.discord }}]Join our regional Discord server[/url][/b] and fill out the form in [b][url=https://discord.com/channels/1299450621044330616/1494359486704386169/1494359486704386169]the Ministry of WA Affairs thread[/url][/b].[/list]
-[anchor=fa][/anchor]
+[/box]{{- divider() -}}[box][anchor=fa][/anchor]
 {{- section("Ministry of Foreign Affairs") -}}
 As part of the Ministry of Foreign Affairs, ambassadors let us know what happens in other regions and broadcast our own news to them.
 
