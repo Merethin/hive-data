@@ -4,11 +4,11 @@ nation = "starlit_constellations"
 category = "Meta/Reference"
 
 [welcome_stl]
-title = "Welcome to Starlight!"
+title = "Welcome to Starlight! (New players click here)"
 nation = "starlit_constellations"
 category = "Meta/Reference"
 
 [welcome_hzn]
-title = "Welcome to Horizon!"
+title = "Welcome to Horizon! (New players click here)"
 nation = "sandy_wilds"
 category = "Meta/Reference"
