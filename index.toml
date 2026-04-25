@@ -2,3 +2,8 @@
 title = "Starlight & Horizon - Current Government"
 nation = "starlit_constellations"
 category = "Meta/Reference"
+
+[welcome_stl]
+title = "Welcome to Starlight!"
+nation = "starlit_constellations"
+category = "Meta/Reference"
