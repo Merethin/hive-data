@@ -5,6 +5,16 @@
 [box]
 {{- heading("Welcome to Starlight!") -}}
 [align=center][spoiler=Welcome new nations!][/spoiler][/align]
+{{- section("Welcome!") -}}
+Welcome to our community, and if this is your first time playing this game, welcome to NationStates as well!
+
+There is so much more to this game than just answering issues, and this guide should help you find something to your liking.
+
+If you ever have any questions, feel free to reach out to any member of the Triune Circle, our regional leadership:
+{% for luminarch in parameters.people.luminarchs -%}
+[color=#E0C033]Luminarch[/color] [nation]{{ luminarch.nation }}[/nation] ([b][url=page=compose_telegram?tgto={{ luminarch.nation }}][font=nationstates][/font] Telegram[/url][/b] - [b]Discord[/b]: {{ luminarch.discord }})
+{% endfor %}[color=#E0C033]Aetherion[/color] [nation]{{ parameters.people.aetherion.nation }}[/nation] ([b][url=page=compose_telegram?tgto={{ parameters.people.aetherion.nation }}][font=nationstates][/font] Telegram[/url][/b] - [b]Discord[/b]: {{ parameters.people.aetherion.discord }})
+{{- endsection() -}}
 {{- section("Getting Started") -}}
 First things first:
 [list][*] [b]Block Recruitment Telegrams[/b]: [i]Your inbox is likely being spammed by recruitment telegrams asking you to move regions right now. Now that you've joined Starlight, you'll want to stop the spam.[/i]
@@ -22,7 +32,7 @@ Head over to [b][url=https://www.nationstates.net/page=tgsettings][font=nationst
 We pride ourselves in having a wide variety of activities for our members to participate in. Click on the links for more information on how to join each of them!
 
 [list][*] [b][url=#rp][font=nationstates][/font] Roleplay[/url][/b]: Join one of our three roleplays and write stories in a variety of settings with nations across the galaxy.
-[*] [b][url=#so][font=nationstates][/font] Hang Out[/url][/b]: Meet our active, bubbly community and make new friends.
+[*] [b][url=#social][font=nationstates][/font] Hang Out[/url][/b]: Meet our active, bubbly community and make new friends.
 [*] [b][url=#cit][font=nationstates][/font] Citizenship[/url][/b]: Lets you vote in regional elections, join the government, and take part in our legislature.
 [*] [b][url=#mil][font=nationstates][/font] Galactic Armada[/url][/b]: Join our regional military to protect innocent regions from invader forces and strike back against bigoted regions.
 [*] As a citizen, you will be able to participate in the following ministries:
@@ -47,7 +57,7 @@ All of them only require World Assembly membership to join, you do not need to b
 You can read more about them and how to join in our roleplay portal dispatch:
 https://www.nationstates.net/page=dispatch/id=2769410
 {{- endsection() -}}
-[anchor=so][/anchor]
+[anchor=social][/anchor]
 {{- section("Hang Out") -}}
 We have an active community that will be delighted to meet you and chat!
 
