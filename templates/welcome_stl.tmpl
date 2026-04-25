@@ -12,8 +12,8 @@ There is so much more to this game than just answering issues, and this guide sh
 
 If you ever have any questions, feel free to reach out to any member of the Triune Circle, our regional leadership:
 {% for luminarch in parameters.people.luminarchs -%}
-[color=#E0C033]Luminarch[/color] [nation]{{ luminarch.nation }}[/nation] ([b][url=page=compose_telegram?tgto={{ luminarch.nation }}][font=nationstates][/font] Telegram[/url][/b] - [b]Discord[/b]: {{ luminarch.discord }})
-{% endfor %}[color=#E0C033]Aetherion[/color] [nation]{{ parameters.people.aetherion.nation }}[/nation] ([b][url=page=compose_telegram?tgto={{ parameters.people.aetherion.nation }}][font=nationstates][/font] Telegram[/url][/b] - [b]Discord[/b]: {{ parameters.people.aetherion.discord }})
+[nation]{{ luminarch.nation }}[/nation] ([b][url=page=compose_telegram?tgto={{ luminarch.nation }}][font=nationstates][/font] Telegram[/url][/b] - [b]Discord[/b]: {{ luminarch.discord }})
+{% endfor %}[nation]{{ parameters.people.aetherion.nation }}[/nation] ([b][url=page=compose_telegram?tgto={{ parameters.people.aetherion.nation }}][font=nationstates][/font] Telegram[/url][/b] - [b]Discord[/b]: {{ parameters.people.aetherion.discord }})
 {{- endsection() -}}
 {{- section("Getting Started") -}}
 First things first:
@@ -106,7 +106,9 @@ As a recruiter, you'll use our incredibly intuitive bot, Vanille, to help you se
 https://www.nationstates.net/page=dispatch/id=2770771
 [anchor=cult][/anchor]
 {{- section("Ministry of Culture") -}}
-As a member of the Ministry of Culture, you will help plan events, watch parties, games, contests, etc. to bring together the community and keep people entertained![/size]
+The Ministry of Culture is tasked with planning and host exciting events to bring the community together.
+
+As a member of the Ministry of Culture, you will help plan events, watch parties, games, contests, etc. to keep people entertained![/size]
 
 [size=130][b]✧ Requirements[/b][/size]
 [list][*] Be a [b][url=#cit]citizen[/url][/b] of the region.[/list]
@@ -115,6 +117,8 @@ As a member of the Ministry of Culture, you will help plan events, watch parties
 [list][b][url={{ parameters.urls.discord }}]Join our regional Discord server[/url][/b] and fill out the form in [b][url=https://discord.com/channels/1299450621044330616/1494358985573404792/1494358985573404792]the Ministry of Culture thread[/url][/b].[/list]
 [anchor=game][/anchor]
 {{- section("Ministry of Gameside") -}}
+The Ministry of Gameside is tasked with welcoming new members, bolstering on-site activity and driving engagement.
+
 As a member of the Ministry of Gameside, you will help welcome new members and integrate them into our community, encourage and drive regional activity on NationStates, especially on the regional message board, and post things like polls and questions of the day.[/size]
 
 [size=130][b]✧ Requirements[/b][/size]
