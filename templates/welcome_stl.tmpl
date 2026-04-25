@@ -11,9 +11,9 @@ Welcome to our community, and if this is your first time playing this game, welc
 There is so much more to this game than just answering issues, and this guide should help you find something to your liking.
 
 If you ever have any questions, feel free to reach out to any member of the Triune Circle, our regional leadership:
-{% for luminarch in parameters.people.luminarchs -%}
-[nation]{{ luminarch.nation }}[/nation] ([b][url=page=compose_telegram?tgto={{ luminarch.nation }}][font=nationstates][/font] Telegram[/url][/b] - [b]Discord[/b]: {{ luminarch.discord }})
-{% endfor %}[nation]{{ parameters.people.aetherion.nation }}[/nation] ([b][url=page=compose_telegram?tgto={{ parameters.people.aetherion.nation }}][font=nationstates][/font] Telegram[/url][/b] - [b]Discord[/b]: {{ parameters.people.aetherion.discord }})
+[list]{%- for luminarch in parameters.people.luminarchs -%}
+[*][nation]{{ luminarch.nation }}[/nation] ([b][url=page=compose_telegram?tgto={{ luminarch.nation }}][font=nationstates][/font] Telegram[/url][/b] - [b]Discord[/b]: {{ luminarch.discord }})
+{% endfor %}[*][nation]{{ parameters.people.aetherion.nation }}[/nation] ([b][url=page=compose_telegram?tgto={{ parameters.people.aetherion.nation }}][font=nationstates][/font] Telegram[/url][/b] - [b]Discord[/b]: {{ parameters.people.aetherion.discord }})[/list]
 {{- endsection() -}}
 {{- section("Getting Started") -}}
 First things first:
