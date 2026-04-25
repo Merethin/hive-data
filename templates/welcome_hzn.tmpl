@@ -4,7 +4,7 @@
 {%- block body -%}
 [box]
 {{- heading("Welcome to Horizon!") -}}
-[align=center][spoiler=Welcome new nations!][/spoiler][/align]
+[align=center][spoiler=Welcome new nations!]{% for nation in generated.welcome.horizon %}[nation]{{ nation }}[/nation]{% endfor %}[/spoiler][/align]
 [align=center][size=120][b]✧ [url=#welc]Welcome![/url] ✧ [url=#start]Getting Started[/url] ✧ [url=#todo]Things to Do[/url] ✧[/b][/size][/align]
 [anchor=welc][/anchor]
 {{- section("Welcome!") -}}
