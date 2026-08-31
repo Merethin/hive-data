@@ -1,7 +1,17 @@
 {
     "discord": "https://discord.gg/EvDHxy8rYE",
+    "discord_channels": {
+        "waa_pds_signup": "https://discordapp.com/channels/1299450621044330616/1403075959145631814/1509346175256363048",
+        "waa_staff_signup": "https://discordapp.com/channels/1299450621044330616/1494359486704386169"
+    },
     "regions": {
         "starlight": "https://www.nationstates.net/region=starlight",
         "horizon": "https://www.nationstates.net/region=horizon"
+    },
+    "forums": {
+        "ga": "https://forum.nationstates.net/viewforum.php?f=9"
+    },
+    "wa": {
+        "submission": "https://www.nationstates.net/page=UN_new_proposal"
     }
 }

@@ -55,3 +55,8 @@ category = "Meta/Reference"
 title = "Welcome to Starlight! (New players click here)"
 nation = "starlit_constellations"
 category = "Meta/Reference"
+
+[wa_introduction]
+title = "A Basic Guide to World Assembly Drafting"
+nation = "starlit_constellations"
+category = "Meta/Reference"
