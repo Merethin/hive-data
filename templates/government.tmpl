@@ -9,6 +9,7 @@
 
 
 [size=150][b]Aethereal Council[/b][/size]
+{% endfor %}[b][color={{ parameters.colors.skyweaver }}]Skyweaver[/color] [nation]{{ parameters.people.skyweaver.nation }}[/nation] ({{ parameters.people.skyweaver.discord }})[/b]
 [hr]{%- for councilor in parameters.people.aethereal_council -%}
 [b][color={{ parameters.colors.aethereal_council }}]Aethereal Councilor[/color] [nation]{{ councilor.nation }}[/nation] ({{ councilor.discord }})[/b]
 {% endfor %}

@@ -4,10 +4,12 @@
         { "nation": "irenae", "discord": "@irenaika" }
     ],
     "aetherion": { "nation": "stevist_guam", "discord": "@greatkitteh" },
+    "skyweaver": { "nation": "imantica", "discord": "ryuhimesama" },
     "aethereal_council": [
         { "nation": "aav", "discord": "@queerlyfe" },
         { "nation": "centennium", "discord": "@centennium" },
-        { "nation": "alainian_federation", "discord": "@celialeaves" }
+        { "nation": "alainian_federation", "discord": "@celialeaves" },
+        { "nation": "idinist", "discord": "@amd_ryzen_8600g" }
     ],
     "flamewarden": { "nation": "idinist", "discord": "@amd_ryzen_8600g" },
     "vice_flamewardens": [],
