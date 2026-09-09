@@ -3,22 +3,21 @@
         { "nation": "oseao", "discord": "@osionicboom" },
         { "nation": "irenae", "discord": "@irenaika" }
     ],
-    "aetherion": { "nation": "alainian_federation", "discord": "@celialeaves" },
+    "aetherion": { "nation": "stevist_guam", "discord": "@greatkitteh" },
     "aethereal_council": [
-        { "nation": "merethin", "discord": "@iris.dreamer" },
-        { "nation": "stevist_guam", "discord": "@greatkitteh" },
-        { "nation": "kaidan", "discord": "@kaidan4" },
-        { "nation": "centennium", "discord": "@centennium" }
+        { "nation": "aav", "discord": "@queerlyfe" },
+        { "nation": "centennium", "discord": "@centennium" },
+        { "nation": "alainian_federation", "discord": "@celialeaves" }
     ],
     "flamewarden": { "nation": "idinist", "discord": "@amd_ryzen_8600g" },
-    "vice_flamewardens": [
-        { "nation": "dogeland", "discord": "@theholygonkdroid" }
-    ],
+    "vice_flamewardens": [],
     "ministers": {
-        "Foreign Affairs": {"nation": "merethin", "discord": "@iris.dreamer" },
-        "World Assembly Affairs": {"nation": "idinist", "discord": "@amd_ryzen_8600g" },
+        "Foreign Affairs": {"nation": "alainian_federation", "discord": "@celialeaves" },
+        "World Assembly Affairs": {"nation": "ubertas", "discord": "@lil_soyuz1898" },
         "Media": {"nation": "aav", "discord": "@queerlyfe" },
-        "Culture": {"nation": "cuchimilco", "discord": "@gonggong225088" },
-        "Gameside": {"nation": "centennium", "discord": "@centennium" }
+        "Culture": {"nation": "foixla", "discord": "@comradeevelyn" },
+        "Gameside": {"nation": "centennium", "discord": "@centennium" },
+        "Information": {"nation": "rkd", "discord": "@plibbsy" },
+        "Recruitment": {"nation": "kadaizee", "discord": "@newryans" }
     }
 }
