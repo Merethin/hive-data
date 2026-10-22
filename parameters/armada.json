@@ -21,22 +21,18 @@
         "a1",
         "zerph",
         "airistocratic_luminosity",
-        "imantica",
-        "rkd"
+        "imantica"
     ],
     "interceptors": [
-        "borealicar",
         "excidium_planetis",
         "montandi-cisalpina",
         "the_andean-pacific_company",
         "andromisa",
         "beimin",
-        "ci_arovannea",
         "enyvala",
         "hjem_system",
         "hydrea",
         "cuchimilco",
-        "the_protective_dome",
         "kotuwia_sarle",
         "maraing",
         "anya_dvasia",
@@ -49,6 +45,7 @@
         "his_kind",
         "cypronia",
         "ubertas",
-        "luminous_valentine"
+        "luminous_valentine",
+        "novaya_zemlya_archipelago"
     ]
 }
